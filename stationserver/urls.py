@@ -23,7 +23,6 @@ app_name ='serverapp'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    url(r'^address$', views.address, name='address'),
     path('recvdata1/', views.recvdata1),
     path('select1/', views.select1, name='select1'),
     path('show1/', views.show1, name='show1'),
